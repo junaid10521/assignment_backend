@@ -21,4 +21,6 @@ In order to run this project successfully, please follow the following steps
 
 7. Run `symfony console doctrine:migrations:migrate` to run migrations.
 
-8. Run `symfony console doctrine:fixtures:load` to seet the database.
+8. Run `symfony console doctrine:fixtures:load` to seed the database.
+
+9. Access [http://localhost:8080/](http://localhost:8080/)
