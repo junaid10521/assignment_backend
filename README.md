@@ -11,7 +11,7 @@ In order to run this project successfully, please follow the following steps car
 2. Go to php/Dockerfile and replace the last two lines `you@example.com` and `Your Name` with
    your email and name for git configuration.
 
-3. Next run `docker-compose up -d --build` command.
+3. Next run `docker-compose up -d --build` command to download different docker images and run docker containers.
 
 4. Run `docker-compose exec php /bin/bash` to access php docker shell
 
