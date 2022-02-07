@@ -17,7 +17,7 @@ In order to run this project successfully, please follow the following steps
 
 5. Than copy `cp .env .env.local`
 
-6. Replace `# DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name?serverVersion=5.7"` with `DATABASE_URL="mysql://junaid:password@mysql_database:3306/symfony_docker_assignment?serverVersion=5.7"` line.
+6. Replace `# DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name?serverVersion=5.7"` with `DATABASE_URL="mysql://junaid:password@mysql_database:3306/symfony_docker_assignment?serverVersion=5.7"` line in file `.env.local`.
 
 7. Run `symfony console doctrine:migrations:migrate` to run migrations.
 
